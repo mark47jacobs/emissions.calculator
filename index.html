@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tyre Company GHG Emissions Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Tyre Company GHG Emissions Calculator</h1>
+
+  <form id="uploadForm">
+    <h2>Upload CSV File</h2>
+    <input type="file" id="csvFileInput" accept=".csv">
+    <button type="submit">Calculate Emissions</button>
+  </form>
+
+  <div id="emissionsContainer" class="hidden">
+    <h2>Emissions Summary</h2>
+    <div class="emissionsScope" id="emissionsScope1"></div>
+    <div class="emissionsScope" id="emissionsScope2"></div>
+    <div class="emissionsScope" id="emissionsScope3"></div>
+    <div class="emissionsScope" id="emissionsScope4"></div>
+    <div class="emissionsScope" id="emissionsScope5"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
